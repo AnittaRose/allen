@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-optical-sizing: auto;
+    font-size: normal;
+    font-variation-settings: "width" 100;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+    width:40px;
+    height: 40px;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+}
+.left-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section{
+    display: flex;
+}
+.right-sub-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.bag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-left: 2px solid black;
+}
+select{
+    margin: 0px 40px 0px 8px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+select, .store, .contact, .login{
+    font-size: 12px;
+}
+.address-text{
+    font-size: 10px;
+}
+.adress-link{
+    font-size: 14px;
+    
+}
+.mainsection{
+    position: relative;
+    display: flex;
+}
+.allen1{
+    width: 148px;
+    height: 58px;
+    margin-left: 6em;
+}
+.solly{
+    color: black;
+    /* justify-content: center; */
+    margin-top: 1.5em;
+    text-align: center;
+    margin-left:5em ;
+    
+}
+.solly1{
+    margin-left: 2em;
+    text-align: center;
+    color: rgb(25, 25, 60);
+}
+.solly2{
+    margin-left: 2em;
+    color: red;
+}
+.hiden-product-section1{
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition: height 0.9s ease-in,opacity 0.9s ease-in-out;
+    /* background-color: black */
+    
+}
+.solly1:hover ~ .hidden-product-section1{
+    height: 20em;
+    opacity: 1;
+}
+.MEN{
+    font-size: 30px;
+    color: rgb(36, 36, 48);
+    margin-top: 2em;
+}
+.intel{
+    font-size: 20px;
+    color: black;
+}
+
+
+
